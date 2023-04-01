@@ -1,0 +1,156 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;900&family=Poppins&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+    --font1: 'Poppins', sans-serif;
+    --font2: 'Montserrat', sans-serif;
+    --cor1: #AA2218;
+    --shadow: 'box-shadow: 1px 1px 6px red';
+}
+
+header{
+    background-image: url(../imagens/pexels-geancarlo-peruzzolo-6796964.jpg);
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    box-shadow: 1px 1px 6px red;
+}
+
+/*secão das imagens*/
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.img1 {
+    background-image: url(../imagens/pexels-geancarlo-peruzzolo-6796964.jpg);
+
+    background-size: cover;
+    width: 96vw;
+    height: 350px;
+    margin: 20px 0px;
+    border-radius: 10px;
+}
+
+section > h1.titulo1{
+    font-family: var(--font1);
+    font-size: 1em;
+}
+
+span{
+    color: #AA2218;;
+}
+
+div.img2{
+    background-image: url(../imagens/pexels-william-choquette-1954524.jpg);
+
+    background-size: cover;
+    width: 96vw;
+    height: 350px;
+    margin: 20px 0px;
+    border-radius: 10px;   
+}
+
+/*Seção chamada para a Ação*/
+
+section.section2{
+    font-family: var(--font2);
+    text-align: center;
+    
+}  
+
+section.section2 > h1{
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    
+}
+
+section.section2 > p{
+    font-size: 1.1em;
+    margin-bottom: 40px;
+}
+
+section > div.titulo3{
+    font-family: var(--font2);
+    margin-bottom: 20px;
+}
+
+section > div.blog{
+    display: flex;
+    justify-content: end;
+    width: 70vw;
+}
+
+section > div.blog > a{
+    background-color: var(--cor1);
+    font-family: var(--font2);
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    text-decoration: none;
+    box-shadow: 1px 1px 6px red;
+    margin-bottom: 60px;
+    
+}
+
+/*parte das fotos dos artigos*/
+
+section.conteiner1{
+    border: solid 1px rgba(0, 0, 0, 0);
+    width: 90%;
+    height: 600px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.205);
+    overflow: hidden;
+    border-width: 0px;
+
+}
+
+section.artigo{
+    background-image: url(../imagens/imagem1.jpg);
+
+    background-size: cover;
+    width: 100%;
+    height: 370px;
+}
+
+article.article1{
+    text-align: justify;
+    padding: 30px;
+}
+
+article.article1 h2{
+    font-family: var(--font2);
+    color: var(--cor1);
+    margin-bottom: 12px;
+}
+
+article.article1 p{
+    font-family: var(--font2);
+    margin-bottom: 25px;
+}
+
+article.article1 a{
+    font-family: var(--font2);
+    text-decoration: none;
+    background-color: var(--cor1);
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+/*Segunda Foto*/
+
+
+
+
+
