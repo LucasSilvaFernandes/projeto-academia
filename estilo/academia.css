@@ -284,7 +284,7 @@ section.informacoes{
 
 div.borda{
     border-top: 1px solid rgba(209, 204, 204, 0.226);
-    width: 500px;
+    width: 80%;
     margin-bottom: 30px;
 }
 
@@ -298,7 +298,8 @@ section > div.imgfooter{
 
 section > div.endereco{
     color: white;
-    font-size: 0.8em;
+    font-size: 0.9em;
+    margin-bottom: 10px;
 }
 
 section div.social{
