@@ -6,6 +6,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: var(--font2);
 }
 
 :root{
@@ -159,7 +160,7 @@ section.conteiner2{
     box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.205);
     overflow: hidden;
     border-width: 0px;
-    margin-top: 40px;
+    margin-top: 70px;
 
 }
 
@@ -208,11 +209,11 @@ section.conteiner3{
     box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.205);
     overflow: hidden;
     border-width: 0px;
-    margin-top: 40px;
+    margin: 70px 0px;
 
 }
 
-section.artigo3{
+section.article3{
     background-image: url(../imagens/imagem3.webp);
 
     background-size: cover;
@@ -245,6 +246,67 @@ article.article3 a{
     padding: 10px;
     border-radius: 20px;
 }
+
+/* Rodapé do site */
+
+
+footer{
+    background-color: rgb(24, 23, 23);
+}
+
+
+section.footer{
+    padding: 30px;
+}
+
+.footer > ul > li{
+    margin-top: 10px;
+    list-style: none;
+}
+
+.footer > ul > li a{
+    color: white;
+    text-decoration: none;   
+}
+
+.footer > ul > li a:hover{
+    color: rgb(182, 177, 177);
+    text-decoration:underline;
+}
+
+/*informações so site*/
+
+section.informacoes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.borda{
+    border-top: 1px solid rgba(209, 204, 204, 0.226);
+    width: 500px;
+    margin-bottom: 30px;
+}
+
+section > div.imgfooter{
+    background-image: url(../imagens/logoacademia2.png);
+    
+    width: 150px;
+    height: 60px;
+    margin-bottom: 20px;   
+}
+
+section > div.endereco{
+    color: white;
+    font-size: 0.8em;
+}
+
+section div.social{
+    color: white;
+    font-size: 0.8em;
+}
+
+
 
 
 
