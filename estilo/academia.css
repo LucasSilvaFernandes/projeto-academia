@@ -297,14 +297,54 @@ section > div.imgfooter{
 }
 
 section > div.endereco{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    text-align: center;
     color: white;
     font-size: 0.9em;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
 }
 
 section div.social{
+    display: flex;
+    align-items: center;
+    gap: 10px;
     color: white;
     font-size: 0.8em;
+    margin-bottom: 50px;
+}
+
+div.social > img{
+    width: 50px;
+    
+}
+
+/*contato*/
+
+section.contato{
+    color: white;
+    padding: 15px;
+}
+
+section.contato > h2{
+   
+}
+
+section > div.cont{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin: 20px 0px;
+}
+
+section > div.cont2{
+    display: flex;
+    align-items: start;
+}
+
+section > div.cont img{
+    padding-bottom: 5px;
 }
 
 
