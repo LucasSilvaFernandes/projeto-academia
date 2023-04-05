@@ -29,14 +29,20 @@ header > nav{
     
 }
 
+@keyframes animacao{
+    from{ height:  0px;}
+    to{height: 247px;}
+}
 nav > ul{
     background: url(../imagens/boku.webp);
     background-repeat: no-repeat;
     background-size: cover;
     display: block;
     list-style: none;
-    transition: ease;
-    
+
+    animation-name: animacao;
+    animation-duration: 0.5s;
+   
 }
 
 nav > ul > li a{
@@ -47,6 +53,8 @@ nav > ul > li a{
     text-decoration: none;
     padding: 10px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.705);
+
+
 }
 
 nav > ul > li a:hover{
