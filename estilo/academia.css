@@ -29,6 +29,10 @@ header > div.logo{
     margin: auto;
 }
 
+nav{
+    display: none;
+}
+
 @keyframes animacao{
     from{ height:  0px;}
     to{height: 240px;}
