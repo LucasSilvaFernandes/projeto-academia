@@ -25,13 +25,13 @@ header{
     box-shadow: 1px 1px 6px red;
 }
 
-header > nav{
-    
+header > div.logo{
+    margin: auto;
 }
 
 @keyframes animacao{
     from{ height:  0px;}
-    to{height: 247px;}
+    to{height: 240px;}
 }
 nav > ul{
     background: url(../imagens/boku.webp);
