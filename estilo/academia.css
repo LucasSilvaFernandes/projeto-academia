@@ -19,9 +19,47 @@
 header{
     background-image: url(../imagens/pexels-geancarlo-peruzzolo-6796964.jpg);
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
     padding: 15px;
     box-shadow: 1px 1px 6px red;
+}
+
+header > nav{
+    
+}
+
+nav > ul{
+    background: url(../imagens/boku.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    list-style: none;
+    transition: ease;
+    
+}
+
+nav > ul > li a{
+    background-color: rgba(34, 33, 33, 0.692);
+    width: 100%;
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.705);
+}
+
+nav > ul > li a:hover{
+    text-decoration: underline;
+}
+
+
+
+header span{
+    background-color: black;
+    color: yellow;
+    height: 23px;
+    cursor: pointer;
 }
 
 /*secão das imagens*/
