@@ -116,6 +116,10 @@ div.img2{
     border-radius: 10px;   
 }
 
+section h1.titulo1{
+    font-size: 1.2em;
+}
+
 /*Seção chamada para a Ação*/
 
 section.section2{
@@ -132,7 +136,7 @@ section.section2 > h1{
 }
 
 section.section2 > p{
-    width: 110%;
+    width: 100%;
     font-size: 1.1em;
     margin-bottom: 40px;
 }

@@ -67,6 +67,15 @@ div.img2{
     background-position: center calc(-150px);
 }
 
-section.section2{
-    font-size: 1.5em;
+
+section.section2 h1{
+    font-size: 1.7em;
+    
+}
+
+section.section2 p{
+    margin: auto;
+    width: 100%;
+    margin-bottom: 40px;
+    
 }
