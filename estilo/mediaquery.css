@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+
+/*Tamanho para computador*/
+
+
+header{
+    display: flex;
+    
+}
+
+header > div.logo{
+    width: 100%;
+}
+
+header > menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+header > menu > ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    position: absolute;
+    top: 7%;
+    left: 40%;
+    
+}
+
+
+
+header > menu > ul > li > a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    
+}
+
+header > menu > ul > li > a:hover{
+    background-color: rgb(168, 16, 16);
+    padding: 10px;
+    border-radius: 50px;
+}
+
+header > span{
+    z-index: -1;
+}
+
+nav#menu > ul{
+    display: none;
+}
+
+div.img1{
+    height: 600px;
+    background-size: cover;
+    background-position: center calc(-30px);
+}
+
+section h1.titulo1{
+    font-size: 1.8em;
+}
+
+div.img2{
+    height: 600px;
+    background-size: cover;
+    background-position: center calc(-150px);
+}
+
+section.section2{
+    font-size: 1.5em;
+}

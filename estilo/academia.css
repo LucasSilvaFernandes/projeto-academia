@@ -29,9 +29,14 @@ header > div.logo{
     margin: auto;
 }
 
+header > menu{
+    display: none;
+}
+
 nav{
     display: none;
 }
+
 
 @keyframes animacao{
     from{ height:  0px;}
@@ -114,6 +119,7 @@ div.img2{
 /*Seção chamada para a Ação*/
 
 section.section2{
+    width: 90%;
     font-family: var(--font2);
     text-align: center;
     
@@ -126,6 +132,7 @@ section.section2 > h1{
 }
 
 section.section2 > p{
+    width: 110%;
     font-size: 1.1em;
     margin-bottom: 40px;
 }
