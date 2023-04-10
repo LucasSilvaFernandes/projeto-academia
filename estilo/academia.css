@@ -166,6 +166,14 @@ section > div.blog > a{
 
 /*parte das fotos dos artigos*/
 
+section.conteiner0{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
 section.conteiner1{
     border: solid 1px rgba(0, 0, 0, 0);
     width: 90%;

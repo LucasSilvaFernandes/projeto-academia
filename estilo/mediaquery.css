@@ -69,7 +69,8 @@ div.img2{
 
 
 section.section2 h1{
-    font-size: 1.7em;
+    margin-top: 40px;
+    font-size: 1.8em;
     
 }
 
@@ -78,4 +79,41 @@ section.section2 p{
     width: 100%;
     margin-bottom: 40px;
     
+}
+
+section.nossoblog{
+    display: flex;
+    margin: 30px 0px;
+    align-items: center;
+    width: 80%;
+
+}
+
+section > div.titulo3{
+    font-size: 1.8em;
+    width: 50%;
+}
+
+section > div.blog > a{
+    margin-top: 35px;
+    font-size: 20px;
+}
+
+/*parte dos blog*/
+
+section.conteiner0{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 30px;
+    width: 90%;
+}
+
+/*parte das fotos */
+
+section
+.conteiner1,
+.conteiner2,
+.conteiner3{
+    height: 660px;
 }
