@@ -117,3 +117,67 @@ section
 .conteiner3{
     height: 660px;
 }
+
+/* rodapé */
+
+footer{
+    position: relative;
+}
+
+footer > section.footer > ul{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+footer > section.footer > ul > li > a{
+    padding: 10px;
+}
+
+
+footer > section.footer > ul > li > a:hover{
+    background-color: #a81010;
+    color: white;
+    padding: 10px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+div.borda{
+    border-top: 1px solid rgba(209, 204, 204, 0.226);
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+section.footertd{
+    display: flex;
+    gap: 100px;
+    margin: 0px 0px 0px 50px;
+}
+
+section.informacoes{
+    align-self: center;
+}
+
+div.social > img{
+    cursor: pointer;
+}
+
+div.social > img:hover{
+    transform: scale(1.2);
+}
+
+section.parceiros{
+    position: absolute;
+    bottom: 19%;
+    right: 5%;
+}
+
+section.parceiros  img{
+    width: 100px;
+}
+
+
+
+
+
